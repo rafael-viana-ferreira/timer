@@ -1,0 +1,157 @@
+.timing {
+    font-size: 84px;
+    margin-bottom: 54px;
+    margin-top: 124px;
+    color: white;
+    text-align: center;
+}
+
+.bolinhas {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bolinha1 {
+    width: 8px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.bolinha2 {
+    width: 8px;
+    height: 6px;
+    background-color: #fbfafa;
+    border-radius: 50%;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.parar {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 19px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    background-color: rgba(248, 9, 9, 0.702);
+    color: white;
+    display: none;
+}
+
+.parar {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 19px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    background-color: rgb(245, 37, 37);
+    color: white;
+    display: none;
+    border: 1px solid red;
+}
+
+.zerar {
+    cursor: pointer;
+    width: 80px;
+    display: none;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 19px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    background-color: rgba(51, 50, 50, 0.702);
+    color: #faf8f8;
+    border: 1px solid red;
+}
+
+.Botao_voltar {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 19px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    background-color: rgba(51, 50, 50, 0.702);
+    color: #faf8f8;
+    border: 1px solid red;
+}
+
+.Botao_iniciar {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 14px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(46, 91, 1);
+    border: 1px solid red;
+}
+
+.botão_retornar {
+    cursor: pointer;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 80px;
+    padding-left: 14px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    font-size: 18px;
+    color: white;
+    /* background-color: rgb(46, 91, 1);*/
+    background-color: blue;
+    display: none;
+    border: 1px solid red;
+}
+
+.voltas_dadas {
+    border: 1px solid red;
+    height: 50px;
+    width: 400px;
+}
+
+.voltas_dadas {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    display: none;
+}
+
+.divisoria {
+    border: 1px solid rgb(23, 23, 23);
+}
+
+.elementosCriados {
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+}

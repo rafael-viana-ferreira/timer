@@ -1,0 +1,8 @@
+.div_principal {
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid red;
+    width: 400px;
+    height: 800px;
+    background-color: black;
+}
