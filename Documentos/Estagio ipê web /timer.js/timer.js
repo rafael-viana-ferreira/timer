@@ -186,7 +186,6 @@ idrepresentaçãoDeVoltas = document.getElementById("definirVoltaAnterior")
 VoltaAtual = document.getElementById("representanteDeVoltas")
 function voltar() {
 
-    posicao1 = 0, posicao2 = 0, posicao3 = 0, posicao4 = 0, posicao5 = 0, posicao6 = 0
 
     Voltas.shift()
     cronometro.shift()
@@ -202,4 +201,9 @@ function voltar() {
     console.log(Voltas, cronometro)
     exibir = document.getElementById("receberElementosCriados")
     exibir.innerHTML += `<p style = " padding: 15px; display:flex; justify-content: space-between;">  <span>${Voltas}</span>    <span>${cronometro}</span></p>   <hr style = "  border: 1px solid rgb(23, 23, 23);"  >`
+
+
+    casaZeroSeis.innerText = posicao6 = 0, casaZeroCinco.innerText = posicao5 = 0, casaZeroQuatro.innerText = posicao4 = 0
+    casaZeroTres.innerText = posicao3 = 0, casaZeroDois.innerText = posicao2 = 0, casaZeroUm.innerText = posicao1 = 0
+
 }
