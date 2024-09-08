@@ -1,3 +1,7 @@
+.div_principal {
+    overflow: hidden;
+}
+
 .timing {
     font-size: 84px;
     margin-bottom: 54px;
@@ -29,6 +33,7 @@
 .botoes {
     display: flex;
     justify-content: space-around;
+    border: none;
 }
 
 .parar {
@@ -45,6 +50,7 @@
     background-color: rgba(248, 9, 9, 0.702);
     color: white;
     display: none;
+    border: none;
 }
 
 .parar {
@@ -61,7 +67,7 @@
     background-color: rgb(245, 37, 37);
     color: white;
     display: none;
-    border: 1px solid red;
+    border: none;
 }
 
 .zerar {
@@ -77,7 +83,7 @@
     font-size: 18px;
     background-color: rgba(51, 50, 50, 0.702);
     color: #faf8f8;
-    border: 1px solid red;
+    border: none;
 }
 
 .Botao_voltar {
@@ -93,7 +99,7 @@
     font-size: 18px;
     background-color: rgba(51, 50, 50, 0.702);
     color: #faf8f8;
-    border: 1px solid red;
+    border: none;
 }
 
 .Botao_iniciar {
@@ -109,7 +115,7 @@
     font-size: 18px;
     color: white;
     background-color: rgb(46, 91, 1);
-    border: 1px solid red;
+    border: none;
 }
 
 .botão_retornar {
@@ -127,11 +133,10 @@
     /* background-color: rgb(46, 91, 1);*/
     background-color: blue;
     display: none;
-    border: 1px solid red;
+    border: none;
 }
 
 .voltas_dadas {
-    border: 1px solid red;
     height: 50px;
     width: 400px;
 }
@@ -154,4 +159,5 @@
     font-size: 18px;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
